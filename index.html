@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPAT OPTION</title>
+    <meta name="description" content="EXPAT OPTION trading platform dashboard for deposits, withdrawals, and balance tracking." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">E</div>
+          <div>
+            <div class="brand-name">EXPAT OPTION</div>
+            <div class="brand-tag">Trade • Grow • Withdraw</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#plans">Plans</a>
+          <a href="#about">About</a>
+          <a href="#payments">Payments</a>
+          <a href="#dashboard">Dashboard</a>
+        </nav>
+        <button id="loginBtn" class="primary-btn small">Login</button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">Trusted Trading Platform</span>
+            <h1>Grow your earnings with EXPAT OPTION</h1>
+            <p>
+              Deposit, choose a plan, follow the trading classes, and manage your account from a
+              simple dashboard built for speed, clarity, and control.
+            </p>
+            <div class="hero-actions">
+              <a href="#dashboard" class="primary-btn">Open Dashboard</a>
+              <a href="#plans" class="secondary-btn">View Plans</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>5</strong><span>Investment Plans</span></li>
+              <li><strong>15%</strong><span>Referral Bonus</span></li>
+              <li><strong>Daily</strong><span>Withdrawals</span></li>
+            </ul>
+          </div>
+
+          <div class="login-card glass" id="authCard">
+            <div class="login-header">
+              <h3>Member Login</h3>
+              <span class="status-dot">Live</span>
+            </div>
+
+            <form id="loginForm" class="auth-form">
+              <label>
+                <span>Full Name</span>
+                <input type="text" id="fullName" placeholder="Enter your name" required />
+              </label>
+
+              <label>
+                <span>Email Address</span>
+                <input type="email" id="email" placeholder="name@example.com" required />
+              </label>
+
+              <label>
+                <span>Password</span>
+                <input type="password" id="password" placeholder="••••••••" required />
+              </label>
+
+              <button type="submit" class="primary-btn full-width">Sign In</button>
+            </form>
+
+            <div class="login-note">
+              New users get <strong>15% cashback</strong> on eligible deposits.
+            </div>
+          </div>
+        </section>
+
+        <section id="plans" class="plans section-block">
+          <div class="section-heading center">
+            <span class="eyebrow">Choose your plan</span>
+            <h2>Investment packages</h2>
+          </div>
+
+          <div class="plan-grid">
+            <article class="plan-card">
+              <span class="plan-type">Ordinary</span>
+              <h3>12 Hr Package</h3>
+              <div class="plan-price">$7.69</div>
+              <p>Return: <strong>$10</strong> after 12 hours</p>
+            </article>
+
+            <article class="plan-card popular">
+              <span class="plan-type">VIP</span>
+              <h3>24 Hr Package</h3>
+              <div class="plan-price">$7.49</div>
+              <p>Return: <strong>$12.50</strong> after 24 hours</p>
+            </article>
+
+            <article class="plan-card">
+              <span class="plan-type">VIP</span>
+              <h3>12 Hr Package</h3>
+              <div class="plan-price">$7.49</div>
+              <p>Return: <strong>$15</strong> after 12 hours</p>
+            </article>
+
+            <article class="plan-card">
+              <span class="plan-type">Master</span>
+              <h3>72 Hr Package</h3>
+              <div class="plan-price">$7.49</div>
+              <p>Return: <strong>$17.50</strong> after 72 hours</p>
+            </article>
+
+            <article class="plan-card">
+              <span class="plan-type">Infinity</span>
+              <h3>7 Day Package</h3>
+              <div class="plan-price">$7.49</div>
+              <p>Return: <strong>$20</strong> after 7 days</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="about" class="about section-block">
+          <div class="section-heading left">
+            <span class="eyebrow">How it works</span>
+            <h2>Deposit, choose a package, and trade with confidence</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="info-card glass">
+              <h3>1. Fund your account</h3>
+              <p>Choose your package and deposit the amount required for your desired investment route.</p>
+            </div>
+            <div class="info-card glass">
+              <h3>2. Join the training class</h3>
+              <p>Once your package is activated, you gain access to the trading class and guidance.</p>
+            </div>
+            <div class="info-card glass">
+              <h3>3. Track your earnings</h3>
+              <p>Monitor your balance, withdrawals, and performance from the secure dashboard.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="payments" class="payments section-block">
+          <div class="section-heading center">
+            <span class="eyebrow">Payment methods</span>
+            <h2>Deposit and withdraw with ease</h2>
+          </div>
+
+          <div class="payment-grid">
+            <div class="payment-card glass">
+              <h3>ECOCASH (ZiG USD)</h3>
+              <p>Amount: <strong>$7.49</strong></p>
+            </div>
+
+            <div class="payment-card glass">
+              <h3>OMARI</h3>
+              <p>0789790674</p>
+            </div>
+
+            <div class="payment-card glass">
+              <h3>USDT (BEP20)</h3>
+              <p>0xDcd67bB5496664a0fa1a284c243348Da799F114e</p>
+              <small>Network: USDTBEP20</small>
+            </div>
+          </div>
+        </section>
+
+        <section id="dashboard" class="dashboard section-block">
+          <div class="section-heading left">
+            <span class="eyebrow">Member control panel</span>
+            <h2>Dashboard</h2>
+          </div>
+
+          <div class="dashboard-shell glass">
+            <div class="dashboard-header">
+              <div>
+                <span class="mini-label">Welcome</span>
+                <h3 id="welcomeName">Investor</h3>
+              </div>
+              <button id="logoutBtn" class="secondary-btn small">Logout</button>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-card">
+                <span>Available Balance</span>
+                <strong id="balanceValue">$0.00</strong>
+              </div>
+              <div class="stat-card">
+                <span>Total Deposits</span>
+                <strong id="depositsValue">$0.00</strong>
+              </div>
+              <div class="stat-card">
+                <span>Withdrawals</span>
+                <strong id="withdrawalsValue">$0.00</strong>
+              </div>
+              <div class="stat-card">
+                <span>Referral Bonus</span>
+                <strong id="referralValue">$0.00</strong>
+              </div>
+            </div>
+
+            <div class="forms-grid">
+              <form id="depositForm" class="action-form">
+                <h3>Deposit</h3>
+                <label>
+                  <span>Choose package</span>
+                  <select id="depositPlan">
+                    <option value="12 Hr Package">12 Hr Package - $7.69</option>
+                    <option value="24 Hr Package">24 Hr Package - $7.49</option>
+                    <option value="VIP Package">VIP Package - $7.49</option>
+                    <option value="72 Hr Package">72 Hr Package - $7.49</option>
+                    <option value="7 Day Package">7 Day Package - $7.49</option>
+                  </select>
+                </label>
+
+                <label>
+                  <span>Deposit amount</span>
+                  <input type="number" id="depositAmount" min="7.49" step="0.01" value="7.49" required />
+                </label>
+
+                <button type="submit" class="primary-btn full-width">Confirm Deposit</button>
+              </form>
+
+              <form id="withdrawForm" class="action-form">
+                <h3>Request Withdrawal</h3>
+                <label>
+                  <span>Withdrawal amount</span>
+                  <input type="number" id="withdrawAmount" min="1" step="0.01" value="5.00" required />
+                </label>
+
+                <label>
+                  <span>Destination</span>
+                  <select id="withdrawMethod">
+                    <option>EcoCash</option>
+                    <option>USDT</option>
+                    <option>Wallet</option>
+                  </select>
+                </label>
+
+                <button type="submit" class="secondary-btn full-width">Request Payout</button>
+              </form>
+            </div>
+
+            <div class="table-wrap">
+              <h3>Recent Transactions</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody id="transactionTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
